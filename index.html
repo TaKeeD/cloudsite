@@ -1,18 +1,14 @@
 ---
 layout: default
 ---
-<main class="mdl-layout__content mdl-color--grey-100">
-  <div class="mdl-grid demo-content">
-    <ul>
-      {% for post in site.posts %}
-      <li>
-        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <span>{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
+    <h2>
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</main>
+  </li>
+  {% endfor %}
+</ul>
