@@ -5,19 +5,7 @@
 
   <body>
     
-    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
-      
-    {% include header.html %}
-    {% include drawer.html %}
-    
-    <main class="mdl-layout__content mdl-color--grey-100">
-      <div class="mdl-grid demo-content">
-        {{ content }}</div>
-    </main>
-
-    {% include footer.html %}
-    
-    </div>
+    {{ content }}
   
     {% include scripts.html %}
   </body>
