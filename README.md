@@ -18,5 +18,5 @@ Please refer to the [Jekyll](https://github.com/jekyll/jekyll) and [MDL](https:/
 The CSS for this project refers to the CDN asset provided by the Material Design Lite team. The Primary and Accent colors are [configurable](https://github.com/getmarkus/jekyll-material-design-lite/blob/master/_config.yml). Please see the [MDL Customization Tool](http://www.getmdl.io/customize/index.html) for options.
 
 ## License
-Jekyll and this content is licensed under the [MIT License](https://github.com/getmarkus/jekyll-material-design-lite/blob/master/LICENSE). The MDL implementation is licesned under the [Apache-2](https://github.com/google/material-design-lite/blob/master/LICENSE) license.
+Jekyll and this content is licensed under the [MIT License](https://github.com/getmarkus/jekyll-material-design-lite/blob/master/LICENSE). The MDL implementation is licensed under the [Apache-2](https://github.com/google/material-design-lite/blob/master/LICENSE) license.
 
