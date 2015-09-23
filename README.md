@@ -4,6 +4,8 @@ This project is a combination of the [Jekyll Static Site Generator](https://gith
 
 The main objective is to use this Project as a starting point for protoyping static sites and to explore the MDL features.
 
+[Live Site](http://getmarkus.github.io/jekyll-material-design-lite)
+
 ## Getting Started
 
 Clone the repo using Git:
