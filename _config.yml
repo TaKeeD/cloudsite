@@ -10,8 +10,8 @@ baseurl: "cloudsite" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 #customize your colors: http://www.getmdl.io/customize/index.html
-primary_color: blue_grey
-accent_color: orange
+primary_color: teal
+accent_color: cyan
 
 google_analytics:
 
