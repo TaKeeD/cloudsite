@@ -2,7 +2,8 @@
 layout: post
 title: Genesis Mining
 date:   2015-08-29 00:00:50
-categories: Облачный майнинг
+categories: Облачный_майнинг
+url: /genesis-mining/
 ---
 
 # H1 
