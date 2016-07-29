@@ -7,7 +7,6 @@
     .demo-card-wide > .mdl-card__title {
         color: #fff;
         height: 418px;
-        background: url('http://appdictive.dk/images/app_feature/wytepads_banner.jpg')  center / cover;
     }
     
     .mdl-card__title-text {
@@ -28,7 +27,7 @@
 
 <div class="demo-card-wide mdl-card mdl-shadow--2dp">
     <a href="{{post.url}}">
-    <div class="mdl-card__title">
+    <div class="mdl-card__title" style="background: url('{{post.cover}}')  center / cover;">
         <h2 class="mdl-card__title-text">{{ post.title }}</h2>
     </div>
     </a>
