@@ -2,7 +2,7 @@
 layout: post
 title: Genesis Mining
 cover: http://znaypravdu.com/wp-content/uploads/2015/08/genesis-mining-glavnaya.jpg
-desc: cloud gjyhgku ghuh ku hkuh kuh ukkuh ukh ukhuukhkuhuk huuhk
+desc: Сдают в аренду мощности под алгоритмы SHA256, X11, Dagger-Hashimoto. Контракт по алгоритму SHA256 условно бессрочный.
 catygory: cloud_mining
 permalink: /genesis-mining/
 ---
