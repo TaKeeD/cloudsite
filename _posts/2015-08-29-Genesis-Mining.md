@@ -2,7 +2,6 @@
 layout: post
 title: Genesis Mining
 date:   2015-08-29 00:00:50
-categories: Облачный_майнинг
 url: /genesis-mining/
 cover: http://appdictive.dk/images/app_feature/wytepads_banner.jpg
 desc: cloud gjyhgku ghuh ku hkuh kuh ukkuh ukh ukhuukhkuhuk huuhk
