@@ -4,6 +4,7 @@ title: Genesis Mining
 cover: http://appdictive.dk/images/app_feature/wytepads_banner.jpg
 desc: cloud gjyhgku ghuh ku hkuh kuh ukkuh ukh ukhuukhkuhuk huuhk
 catygory: cloud_mining
+permalink: /genesis-mining/
 ---
 
 # H1 
