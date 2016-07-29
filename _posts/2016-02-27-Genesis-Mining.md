@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Genesis Mining
-date:   2016-02-27 00:00:50
 cover: http://appdictive.dk/images/app_feature/wytepads_banner.jpg
 desc: cloud gjyhgku ghuh ku hkuh kuh ukkuh ukh ukhuukhkuhuk huuhk
 catygory: cloud_mining
