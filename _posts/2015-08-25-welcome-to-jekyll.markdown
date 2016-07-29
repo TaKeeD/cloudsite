@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  HashFlare
 date:   2015-08-25 15:40:50
 categories: 
 ---
