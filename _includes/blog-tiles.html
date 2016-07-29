@@ -26,11 +26,9 @@
 {% for post in site.posts %}
 
 <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-    <a href="{{post.url}}" style="text-decoration:none;">
     <div class="mdl-card__title" style="background: url('{{post.cover}}')  center / cover;">
-        <h2 class="mdl-card__title-text">{{ post.title }}</h2>
+        <h2 class="mdl-card__title-text"><a href="{{post.url}}" style="text-decoration:none;">{{ post.title }}</a></h2>
     </div>
-    </a>
     <div class="mdl-card__supporting-text">
         <p>{{ post.desc }}</p>
     </div>
