@@ -7,32 +7,35 @@
 </p>
 
   
-  <table class="mdl-data-table">
-                                        <thead>
-                                                <tr>
-							<th>#Т</th>
-							<th>Название</th>
-							<th>Тип</th>
-							<th>День</th>
-							<th>Месяц</th>
-							<th>Год</th>
-							<th>ROI</th>
-							<th>Статус</th>
-							<th>Обзор</th>
-						</tr>
-                                        </thead>
-                                        <tbody>
-	<tr>
-      <td>1</td>
-	  <td>wertyj</td>
-	  <td>sdfghnm</td>
-	  <td>1%</td>
-	  <td>30%</td>
-	  <td>200%</td>
-	  <td>120%</td>
-	  <td>ghjk</td>
-	  <td><a href="123"> Подробнее..</a></td>
-                                        </tbody>
-                                </table>
+<table class="mdl-data-table">
+	<thead>
+		<tr>
+			<th>Название</th>
+			<th>Тип</th>
+			<th>Описание</th>
+			<th>День</th>
+			<th>Месяц</th>
+			<th>Год</th>
+			<th>ROI</th>
+			<th>Статус</th>
+			<th>Обзор</th>
+		</tr>
+        </thead>
+        <tbody>
+        	{% for post in site.posts %}
+		<tr>
+		<td>{{ post.title }}</td>
+		<td>{{ post.category }}</td>
+		<td>{{ post.desc }}</td>
+		<td>{{ post.day }}</td>
+		<td>{{ post.month }}</td>
+		<td>{{ post.year }}</td>
+		<td>{{ post.roi }}</td>
+		<td>{{ post.status }}</td>
+		<td><a href="{{post.url}}" style="text-decoration:none; color: #fff">Обзор {{ post.title }}</a></td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
     </div>
 </div>
