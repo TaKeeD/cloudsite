@@ -22,7 +22,6 @@
         color: #fff;
     }
 </style>
-{% if post.category == "cloud_mining" %}
 {% for post in site.posts %}
 <div class="demo-card-wide mdl-card mdl-shadow--2dp">
     <div class="mdl-card__title" style="background: url('{{post.cover}}')  center / cover;">
@@ -37,6 +36,4 @@
         </button>
     </div>
 </div>
-
 {% endfor %}
-{% endif %}
