@@ -20,6 +20,31 @@ layout: default
 }
 </style>
 
+                  <style>
+  .demo-card-wide.mdl-card {
+        width: 852px;
+        margin-bottom: 48px;
+    }
+    
+    .demo-card-wide > .mdl-card__title {
+        color: #fff;
+        height: 418px;
+    }
+    
+    .mdl-card__title-text {
+        line-height: normal;
+        text-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+        font-size: 50px;
+        min-height: 1em;
+        margin-left: 9px;
+        margin-bottom: 6px;
+    }
+    
+    .demo-card-wide > .mdl-card__menu {
+        color: #fff;
+    }
+    </style>
+
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
@@ -58,7 +83,23 @@ layout: default
         </section>
         <section class="mdl-layout__tab-panel" id="scroll-tab-2">
             <div class="page-content">
-                посты
+                {% for post in site.posts %}
+                {% if cat == 1 %}
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title" style="background: url('{{post.cover}}')  center / cover;">
+                        <h2 class="mdl-card__title-text"><a href="{{post.url}}" style="text-decoration:none; color: #fff">{{ post.title }}</a></h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <p>{{ post.desc }}</p>
+                    </div>
+                    <div class="mdl-card__menu">
+                        <button class="mdl-button mdl-button--icon mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                            <i class="material-icons">share</i>
+                        </button>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
             </div>
         </section>
         <section class="mdl-layout__tab-panel" id="scroll-tab-3">
