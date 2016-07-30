@@ -83,8 +83,6 @@ layout: default
         </section>
         <section class="mdl-layout__tab-panel" id="scroll-tab-2">
             <div class="page-content">
-                {% for post in site.posts %}
-                {% if {{ post.cat }} == "1" %}
                 <div class="demo-card-wide mdl-card mdl-shadow--2dp">
                     <div class="mdl-card__title" style="background: url('{{post.cover}}')  center / cover;">
                         <h2 class="mdl-card__title-text"><a href="{{post.url}}" style="text-decoration:none; color: #fff">{{ post.title }}</a></h2>
@@ -98,9 +96,6 @@ layout: default
                         </button>
                     </div>
                 </div>
-                {% endif %}
-                {% endfor %}
-                22
             </div>
         </section>
         <section class="mdl-layout__tab-panel" id="scroll-tab-3">
