@@ -3,7 +3,7 @@ layout: post
 title: Genesis Mining
 cover: http://static.ow.ly/photos/original/dmEKm.jpg
 desc: Сдают в аренду мощности под алгоритмы SHA-256, X11, Dagger-Hashimoto. Контракт по алгоритму SHA-256 условно бессрочный.
-category: news
+category: Облачный_майнинг
 permalink: /genesis-mining/
 day: 0.01%
 month: 0.3%
