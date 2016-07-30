@@ -1,15 +1,10 @@
 ---
 layout: post
-title: Genesis Mining
-cover: http://static.ow.ly/photos/original/dmEKm.jpg
-desc: Сдают в аренду мощности под алгоритмы SHA-256, X11, Dagger-Hashimoto. Контракт по алгоритму SHA-256 условно бессрочный.
-category: Облачный_майнинг
+title: HashFlare
+cover: http://dengyvseti.ru/wp-content/uploads/2016/03/hf_fb_1200X630_eng-1024x538.png
+desc: Сдают в аренду мощности под SHA256, Scrypt, Ethereum майнинг. Минимальная сумма вывода 0.0004 BTC/0.0007 ETH (включая комиссию). Комиссия за вывод средств составляет 0.0003 BTC/0.0006 ETH. Функция автоматического реинвеста.
+category: cloud_mining
 permalink: /genesis-mining/
-day: 0.01%
-month: 0.3%
-year: 3.6%
-roi: 31%
-status: Платит, сильно урезана выплата
 ---
 
 # H1 
