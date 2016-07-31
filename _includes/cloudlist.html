@@ -11,6 +11,7 @@
    <tr>
     <th>Название</th>
     <th>Категория</th>
+    <th>Алгоритм</th>
     <th>День</th>
     <th>Месяц</th>
     <th>Год</th>
@@ -22,6 +23,6 @@
     <th>Обзор</th>
    </tr>
    {% for post in site.categories.cloud_mining %}
-   <tr><td><img src="{{ post.icon  }}" height="23"> {{ post.title }}</td><td>{{ post.category  }}</td><td>{{ post.day }}</td><td>{{ post.month }}</td><td>{{ post.year }}</td><td>{{ post.test }}</td><td>{{ post.deposit }}</td><td>{{ post.windraw }}</td><td>{{ post.roi }}</td><td>{{ post.status }}</td><td><a href="{{ post.permalink }}" style="color: #424242">Перейти</a></a></td></tr>
+   <tr><td><img src="{{ post.icon  }}" height="23"> {{ post.title }}</td><td>{{ post.category  }}</td><td>{{ post.algoritm  }}</td><td>{{ post.day }}</td><td>{{ post.month }}</td><td>{{ post.year }}</td><td>{{ post.test }}</td><td>{{ post.deposit }}</td><td>{{ post.windraw }}</td><td>{{ post.roi }}</td><td>{{ post.status }}</td><td><a href="{{ post.permalink }}" style="color: #424242">Перейти</a></a></td></tr>
    {% endfor %}
   </table>
