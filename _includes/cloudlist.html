@@ -11,9 +11,9 @@
     <th>Название</th>
     <th>Категория</th>
     <th>День</th>
-    <th>Длина ступни, см</th>
+    <th>Лого</th>
    </tr>
    {% for post in site.categories.cloud_mining %}
-   <tr><td><img src="{{ post.icon  }}" height="23"> {{ post.title }}</td><td>{{ post.category  }}</td><td>{{ post.day  }}</td><td>23</td></tr>
+   <tr><td><img src="{{ post.icon  }}" height="23"> {{ post.title }}</td><td>{{ post.category  }}</td><td>{{ post.day  }}</td><td>{{ post.img }}</td></tr>
    {% endfor %}
   </table>
