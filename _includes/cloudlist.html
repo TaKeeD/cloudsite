@@ -1,0 +1,11 @@
+  <table border="1">
+   <tr>
+    <th>Название</th>
+    <th>Категория</th>
+    <th>Европа</th>
+    <th>Длина ступни, см</th>
+   </tr>
+   {% for post in site.categories.news %}
+   <tr><td>{{ post.title }}</td><td>{{ post.category  }}</td><td>36</td><td>23</td></tr>
+   {% endfor %}
+  </table>
