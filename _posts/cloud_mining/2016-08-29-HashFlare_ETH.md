@@ -8,11 +8,11 @@ desc: Сдают в аренду мощности под SHA256, Scrypt, Ethereu
 category: cloud_mining
 test: 0.3 MH/s
 deposit: 11.22$
-windraw: 2.39$
+windraw: 0.34658228 ETH / 4.25$
 permalink: /hashflare_eth/
 day: 0.25%
 month: 7.43%
 year: 89.19%
-roi: 25%
+roi: 37.87%
 status: Платит
 ---
