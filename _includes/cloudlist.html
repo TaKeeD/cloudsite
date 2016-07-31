@@ -6,6 +6,7 @@
   text-align: left;
 }
 </style>
+<p>В основном облачный майнинг, как услуга, предоставляется на специализированном оборудовании - асиках. Доходность облачного майнинга определяется количеством добытых монет и их рыночной ценой, т.е. по завершению контракта (или в пределах его длительности) вы будете получать добытую криптовалюту или эквивалентные выплаты в фиате на свой электронный кошелёк соразмерно количеству арендованной мощности.</p>
   <table class="mdl-data-table" align="left">
    <tr>
     <th>Название</th>
@@ -21,6 +22,6 @@
     <th>Обзор</th>
    </tr>
    {% for post in site.categories.cloud_mining %}
-   <tr><td><img src="{{ post.icon  }}" height="23"> {{ post.title }}</td><td>{{ post.category  }}</td><td>{{ post.day }}</td><td>{{ post.month }}</td><td>{{ post.year }}</td><td>{{ post.test }}</td><td>{{ post.deposit }}</td><td>{{ post.windraw }}</td><td>{{ post.roi }}</td><td>{{ post.status }}</td><td><a href="{{ post.permalink }}">Перейти</a></a></td></tr>
+   <tr><td><img src="{{ post.icon  }}" height="23"> {{ post.title }}</td><td>{{ post.category  }}</td><td>{{ post.day }}</td><td>{{ post.month }}</td><td>{{ post.year }}</td><td>{{ post.test }}</td><td>{{ post.deposit }}</td><td>{{ post.windraw }}</td><td>{{ post.roi }}</td><td>{{ post.status }}</td><td><a href="{{ post.permalink }}" style="color: #424242">Перейти</a></a></td></tr>
    {% endfor %}
   </table>
