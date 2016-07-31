@@ -1,36 +1,13 @@
 ---
 layout: scrollable-tabs
 ---
-<style>
-.content {
-  border-radius: 2px;
-  padding: 25px 56px;
-  margin-bottom: 25px;
-}
-.back {
-  text-decoration: none;
-  color: #424242;
-  font-size: 18px;
-}
-.back:hover {
-  text-decoration: underline;
-}
-</style>
-<div class="page-content">
-    <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-        <div class="mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-        <a href="/" class="back">Назад к списку</a>
-            <header>
-                <h1>{{ page.title }}</h1>
-                <div class="mdl-card__title" style="background: url('{{post.cover}}')  center / cover;">
-        <h2 class="mdl-card__title-text"><a href="{{post.url}}" style="text-decoration:none; color: #fff">{{ post.title }}</a></h2>
-    </div>
-            </header>
-
-            <article>
-                {{ content }}
-            </article>
-        </div>
-    </div>
-</div>
+<section class="mdl-layout__tab-panel" id="scroll-tab-2">
+            <div class="page-content">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                    <div class="demo-content mdl-color--white content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+</section>
