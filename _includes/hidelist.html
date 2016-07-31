@@ -1,0 +1,40 @@
+<style>  
+.mdl-data-table td {
+  text-align: left;
+}
+.mdl-data-table th {
+  text-align: left;
+}
+</style>
+<h2>Облачный майнинг</h2>
+<p>В основном облачный майнинг, как услуга, предоставляется на специализированном оборудовании - асиках. Доходность облачного майнинга определяется количеством добытых монет и их рыночной ценой, т.е. по завершению контракта (или в пределах его длительности) вы будете получать добытую криптовалюту или эквивалентные выплаты в фиате на свой электронный кошелёк соразмерно количеству арендованной мощности.</p>
+  <table class="mdl-data-table" align="left">
+   <tr>
+    <th>Название</th>
+    <th>Категория</th>
+    <th>Алгоритм</th>
+    <th>День</th>
+    <th>Месяц</th>
+    <th>Год</th>
+    <th>Тест</th>
+    <th>Внесено</th>
+    <th>Выплата</th>
+    <th>Рой</th>
+    <th>Статус</th>
+   </tr>
+   {% for post in site.categories.hide_mining %}
+   <tr>
+     <td><a href="{{ post.ref_link }}" target="_blank" title="{{ post.title }}" style="color: #424242; text-decoration: none"><img src="{{ post.icon  }}" height="23"> {{ post.title }}</a></td>
+     <td>{{ post.category  }}</td>
+     <td>{{ post.algoritm  }}</td>
+     <td>{{ post.day }}</td>
+     <td>{{ post.month }}</td>
+     <td>{{ post.year }}</td>
+     <td>{{ post.test }}</td>
+     <td>{{ post.deposit }}</td>
+     <td>{{ post.windraw }}</td>
+     <td>{{ post.roi }}</td>
+     <td>{{ post.status }}</td>
+    </tr>
+   {% endfor %}
+  </table>
