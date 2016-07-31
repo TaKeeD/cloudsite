@@ -14,6 +14,6 @@
     <th>Лого</th>
    </tr>
    {% for post in site.categories.cloud_mining %}
-   <tr><td><img src="{{ post.icon  }}" height="23"> {{ post.title }}</td><td>{{ post.category  }}</td><td>{{ post.day  }}</td><td><img src="{{ post.img }}" height="70"></td></tr>
+   <tr><td><img src="{{ post.icon  }}" height="23"> {{ post.title }}</td><td>{{ post.category  }}</td><td>{{ post.day }}</td><td>{{ post.month }}</td></tr>
    {% endfor %}
   </table>
