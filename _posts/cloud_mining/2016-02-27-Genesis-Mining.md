@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Genesis Mining
+img: https://bitmakler.com/images/clouds/genesis-mining_logo.png
 cover: http://static.ow.ly/photos/original/dmEKm.jpg
 icon: https://www.genesis-mining.com/img/Version3/favicon/favicon-32x32.png
 desc: Сдают в аренду мощности под алгоритмы SHA-256, X11, Dagger-Hashimoto. Контракт по алгоритму SHA-256 условно бессрочный.
