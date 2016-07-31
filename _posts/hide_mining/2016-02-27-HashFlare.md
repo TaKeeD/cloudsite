@@ -1,28 +1,19 @@
 ---
 layout: post
-title: Genesis Mining
+title: Sky-Hash
+algoritm: Altcoin mining
 cover: http://static.ow.ly/photos/original/dmEKm.jpg
-desc: Сдают в аренду мощности под алгоритмы SHA-256, X11, Dagger-Hashimoto. Контракт по алгоритму SHA-256 условно бессрочный.
-category: Облачный_майнинг
-permalink: /genesis-mining/
-day: 0.01%
-month: 0.3%
-year: 3.6%
+icon: https://sky-hash.com/favicon.png
+desc: 
+category: hide_mining
+ref_link: https://sky-hash.com/?referral=56388
+test: 0.48 MH/s
+deposit: 12.01$
+windraw: 4.08$
+permalink: /sky-hash/
+day: 0.89%
+month: 26.71%
+year: 297.37%
 roi: 31%
-status: Платит, сильно урезана выплата
+status: Платит
 ---
-
-# H1 
-<!--more-->
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-Alternatively, for H1 and H2, an underline-ish style:
-
-Alt-H1
-======
-
-Alt-H2
