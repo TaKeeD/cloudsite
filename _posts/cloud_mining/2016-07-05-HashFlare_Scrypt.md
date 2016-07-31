@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HashFlare
+title: HashFlare_Scrypt
 algoritm: Scrypt
 cover: http://dengyvseti.ru/wp-content/uploads/2016/03/hf_fb_1200X630_eng-1024x538.png
 icon: https://hashflare.io/favicon-32x32.png?v=5
