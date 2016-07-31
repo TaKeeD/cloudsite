@@ -11,9 +11,10 @@
     <th>Название</th>
     <th>Категория</th>
     <th>День</th>
-    <th>Лого</th>
+    <th>Месяц</th>
+    <th>Год</th>
    </tr>
    {% for post in site.categories.cloud_mining %}
-   <tr><td><img src="{{ post.icon  }}" height="23"> {{ post.title }}</td><td>{{ post.category  }}</td><td>{{ post.day }}</td><td>{{ post.month }}</td></tr>
+   <tr><td><img src="{{ post.icon  }}" height="23"> {{ post.title }}</td><td>{{ post.category  }}</td><td>{{ post.day }}</td><td>{{ post.month }}</td><td>{{ post.year }}</td></tr>
    {% endfor %}
   </table>
